@@ -1,0 +1,21 @@
+{| class="wikitable"
+ ! Packet ID
+ ! Bound To
+ ! Field Name
+ ! Field Type
+ ! Notes
+ |-
+ |rowspan="3"| 0x01
+ |rowspan="3"| Server
+ | Protocol version
+ | Int (big-endian)
+ | 
+ |-
+ | Chain data
+ | JSON array of JWT Data
+ | Contains the display name, UUID and XUID
+ |-
+ | Skin data
+ | JWT Data
+ | 
+ |}
